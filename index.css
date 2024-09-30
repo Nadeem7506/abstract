@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-color: black;
+width: 100px;
+}
+.parent1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 30px;
+   justify-content: space-between;
+}
+
+.help{
+    color: white;
+}
+
+.parent2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* border: 1px solid #fff; */
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: black;
+    padding: 20px 50px;
+}
+
+.h-btn1 {
+  padding: 10px 40px;
+  font-size: 20px;
+  /* border-radius: 50%; */
+  background-color: black;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.h-btn2 {
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.container2 {
+    align-items: center;
+    justify-items:center;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 60px ;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.input {
+    padding: 10px 120px;
+}
+
+/* .container-card {
+    padding: 160px 70px;
+} */
+
+
+
+ .child {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+
+.card-1 {
+    display: flex;
+    align-items: center;
+}
+
+ .card-2 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+ } 
+
+ .card-3 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+ }   
+
+ .card-4 {
+    display: flex;
+    align-items: center;
+ }
+
+ .cards {
+    display: flex;
+    align-items: center;
+ }
+
+ /* img {
+    width: 60%;
+}  */
+
+h4 {
+    font-size: 25px ;
+}
+
+
+.footer-container {
+    display :flex;
+     justify-content: space-between;
+     align-items: center;
+      background-color: black;
+      color: #fff;
+}
+
+.f-h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight:bold;
+}
+
+.footer1  {color: #fff;
+    
+}
+/* .footer2 p {color: #fff;}
+.footer3 p {color: #fff;}
+.footer4 p {color: #fff;}
+.footer5 p{color: #fff;}
+.footer6{color: #fff;}  */
+
+.container-card img {
+    width: 80px;
+}
+
+.container-card {
+   padding: 150px 100px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin: 20px 30px;
+}
+
+.container-card p {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.cards {
+    width: 50%;
+    gap: 12px;
+}
